@@ -1,0 +1,421 @@
+/* navbar */
+.navlogo{
+    width: 150px;
+    height: 100px;
+}
+.navbar-brand{
+    margin-left: 200px;
+    
+}
+.inlog{
+    margin-right: 200px;
+    color: blue;
+}
+.inlo{
+    color: blue;
+}
+
+
+/* activity */
+.actde{
+    background-color: aliceblue;
+    border: 1px solid black;
+    background-color: rgb(181, 209, 200);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+    
+}
+.act1{
+    
+    width: 25%;
+    height: 300px;
+    background-image: url("../mumimg/acadmic.jpg");
+    max-width: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.act2{
+    
+    width: 25%;
+    height: 300px;
+    background-image: url("../mumimg/sport.jpg");
+    max-width: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.act3{
+    
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    background-image: url("../mumimg/activity.jpg");
+    max-width: auto;
+    background-repeat: no-repeat;
+   
+
+
+}
+.act{
+    font-weight: 900;
+    color: rgb(85, 255, 0);
+    width:75%;
+    background-image: url(https://scontent.fjai1-4.fna.fbcdn.net/v/t39.30808-6/290296701_434085852057614_5223025802462612938_n.jpg?stp=c0.78.304.304a_dst-jpg_p180x540&_nc_cat=111&ccb=1-7&_nc_sid=da31f3&_nc_ohc=nNA8BkS1nIUAX-k-BpW&_nc_ht=scontent.fjai1-4.fna&oh=00_AfCTDUKYl_cvpAaQhf0WfYz2uUBHjfh4YDm8OwnJzS4B1w&oe=645669F2); 
+}
+
+/* school discription */
+.sdis{
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+    background-image: url(https://thumbs.dreamstime.com/z/colourful-children-schoolbag-outdoors-field-backpack-school-accessories-154711801.jpg);
+    background-repeat: repeat;
+}
+.abmum{
+    margin: 35px 200px;
+    color: rgb(70, 235, 111);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abmumt{
+    margin: 1% 10% 7% 10% ;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+ 
+}
+.abmumo{
+   
+    color: rgb(128, 235, 70);
+    text-align: center;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+/* acadmic class */
+#services{
+    border: 1px solid rgb(0, 0, 0);       
+    width: 100%;
+    height: 593px;
+  
+
+    
+    
+}
+
+.h1{
+    
+   text-align: center;
+   
+   margin-top:10%;
+}
+h1{
+    text-align: center;
+    
+}
+.p1{
+    
+   
+    width: 70%;
+    margin: 10%;
+    
+   
+}
+.redm{
+    margin-left:38%;
+    background-color: beige;
+    color: red;
+    width: 30%;
+}
+
+.aci{
+   
+    width: 40%;
+    float: left;
+    height: 30px;
+    margin-top: 40px;
+   
+}
+.aci2{
+    
+    margin-top: 40px;
+    
+    width: 60%;
+    float: left;
+
+    
+   
+}
+
+.a{
+    
+    width:50%;
+    margin: auto;
+    float: left;
+
+}
+.b{
+    
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+.c{
+    
+    width: 50%;
+    margin: auto;
+}
+.butcls{
+    width: 100%;
+    height:50px;
+    background-color: aqua;
+    font-size: larger;
+    font-weight: 900;
+}
+/* map */
+.mapd{
+    border: 5px solid black;
+    width: 100%;
+    height: 64vh;
+}
+.map{
+    width: 100%;
+}
+
+
+
+/* footer */
+.container-fluid{
+   
+    height: 42vh;
+    background-image: url(../mumimg/school1.png);
+
+}
+.row .col-md-4{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    
+}
+.row .col-md-4 a{
+    color: rgb(248, 216, 7);
+    text-decoration: none;
+    
+}
+.row .col-md-4 a:hover{
+    background-color: rgba(255, 255, 255, 0.588);
+    border-radius: 20px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quarry for school dis */
+
+@media only screen and (min-width:100px) and (max-width:575px) {
+    .actde{
+        width: 100%;
+        background-color: aliceblue;
+        border: 1px solid black;
+        background-color: rgb(181, 209, 200);
+        height: auto;
+        display: grid;
+        padding: 5% 10%;
+        
+        
+        
+        
+    }
+    .act1{
+    
+        width: 300%;
+        height: 300px;
+        background-image: url("../mumimg/acadmic.jpg");
+        
+        
+        text-align: center;
+    }
+    .act2{
+        
+        width: 300%;
+        height: 300px;
+        background-image: url("../mumimg/sport.jpg");
+        
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .act3{
+        
+        text-align: center;
+        width: 300%;
+        height: 300px;
+        background-image: url("../mumimg/activity.jpg");
+        
+        background-repeat: no-repeat;
+       
+    
+    
+    }
+
+    /* about school */
+
+    .sdis{
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+        background-image: url(https://thumbs.dreamstime.com/z/colourful-children-schoolbag-outdoors-field-backpack-school-accessories-154711801.jpg);
+        background-repeat: repeat;
+    }
+    .abmum{
+        margin: 35px 200px;
+        color: rgb(70, 235, 111);
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .abmumt{
+        margin: 1% 10% 7% 10% ;
+        color: rgb(0, 0, 0);
+     
+    }
+    .abmumo{
+       
+        color: rgb(128, 235, 70);
+        text-align: center;
+        font-family:  Georgia, Times, 'Times New Roman', serif;
+        
+    }
+
+/* acadmic */
+
+#services{
+    border: 1px solid rgb(0, 0, 0);       
+    width: 100%;
+    
+  
+
+    
+    
+}
+
+.h1{
+    
+   text-align: center;
+   
+   margin-top:10%;
+}
+h1{
+    text-align: center;
+    
+}
+.p1{
+    
+   
+    width: 70%;
+    margin: 10%;
+    
+   
+}
+.redm{
+    margin-left:38%;
+    background-color: beige;
+    color: red;
+    width: 30%;
+}
+
+.aci{
+   
+    width: 100%;
+    
+    height: 30px;
+    margin-top: 40px;
+   
+}
+.aci2{
+    
+   
+    
+    width: 100%;
+    
+
+    
+   
+}
+
+.a{
+    margin-top: 480px;
+    width:100%;
+    
+   
+
+}
+.b{
+    
+    width: 100%;
+    
+    
+}
+.c{
+    
+    width: 100%;
+    
+}
+.butcls{
+    width: 100%;
+    height:50px;
+    background-color: aqua;
+    font-size: larger;
+    font-weight: 900;
+}
+
+   
+}
+
