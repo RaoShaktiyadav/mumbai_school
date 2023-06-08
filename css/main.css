@@ -217,6 +217,7 @@ h1{
     height: 60vh;
 background-image: url("../mumimg/Screenshot 2023-06-06 202818.png");
 max-width: none;
+display: flex;
 
 
 }
@@ -228,6 +229,9 @@ max-width: none;
 }
 .stud2{
     width: 50%;
+    text-align: center;
+    font-weight: 700;
+    padding: 11% 5% ;
 }
 
 
