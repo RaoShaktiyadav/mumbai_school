@@ -67,7 +67,7 @@
 
 /* school discription */
 .sdis{
-    border: 1px solid black;
+    
     width: 100%;
     height: 450px;
     background-image: url(https://thumbs.dreamstime.com/z/colourful-children-schoolbag-outdoors-field-backpack-school-accessories-154711801.jpg);
@@ -95,7 +95,7 @@
 
 /* acadmic class */
 #services{
-    border: 1px solid rgb(0, 0, 0);       
+         
     width: 100%;
     height: 593px;
   
@@ -175,7 +175,7 @@ h1{
 }
 /* map */
 .mapd{
-    border: 5px solid black;
+    
     width: 100%;
     height: 64vh;
 }
@@ -208,6 +208,26 @@ h1{
     background-color: rgba(255, 255, 255, 0.588);
     border-radius: 20px ;
     
+}
+/* student */
+.stud{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 60vh;
+background-image: url("../mumimg/Screenshot 2023-06-06 202818.png");
+max-width: none;
+
+
+}
+.stud1{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 10% 10%;
+   
+}
+.stud2{
+    width: 50%;
 }
 
 
