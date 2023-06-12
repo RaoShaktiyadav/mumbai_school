@@ -441,6 +441,33 @@ h1{
     font-weight: 900;
 }
 
+
+/* stud reiw */
+.stud{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: auto;
+background-image: url("../mumimg/Screenshot 2023-06-06 202818.png");
+display: grid;
+
+}
+
+.stud1{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10% 10%;
+   
+}
+.stud2{
+    width: 100%;
+   
+    text-align: center;
+    font-weight: 900;
+    padding: 11% 5% ;
+}
+
+
    
 }
 
