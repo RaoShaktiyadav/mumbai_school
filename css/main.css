@@ -1,6 +1,8 @@
 
 
 /* navbar */
+
+
 .navlogo{
     width: 150px;
     height: 100px;
@@ -17,6 +19,29 @@
     color: blue;
 }
 
+/* nav hover */
+.collapse ul
+        {
+              list-style: none;
+             color: #24ff07;  
+        }
+        .collapse ul li{
+            width: 100px;
+        
+            
+            
+            text-align: center;
+            line-height: 32px;
+            float: left;
+        }
+        .collapse ul ul{
+            display: none;
+        }
+
+        .collapse ul li:hover >ul{
+            display: block;
+            
+        }
 
 /* activity */
 .actde{
