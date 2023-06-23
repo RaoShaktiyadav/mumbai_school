@@ -29,7 +29,7 @@
              color: #24ff07;  
         }
         .collapse ul li{
-            width: 100px;
+            width: 110px;
         
             
             
@@ -44,11 +44,20 @@
         .collapse ul li:hover >ul{
             display: block;
             
-        } 
+        }
         .item-nav{
             display: none;
         }
         .nav-link:hover{
             display: grid;
-            background-color: #07ffea;
+            background-color: #49ff07;
+            color: red;
+        }
+        .item-nav{
+            display: none;
+        }
+        .nav-link:hover{
+            display: grid;
+            background-color: #49ff07;
+            color: red;
         }

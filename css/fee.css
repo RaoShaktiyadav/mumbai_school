@@ -22,3 +22,42 @@
     border-radius: 20px ;
     
 } 
+/* nav hover */
+.collapse ul
+        {
+              list-style: none;
+             color: #24ff07;  
+        }
+        .collapse ul li{
+            width: 110px;
+        
+            
+            
+            text-align: center;
+            line-height: 32px;
+            float: left;
+        }
+        .collapse ul ul{
+            display: none;
+        }
+
+        .collapse ul li:hover >ul{
+            display: block;
+            
+        }
+        .item-nav{
+            display: none;
+        }
+        .nav-link:hover{
+            display: grid;
+            background-color: #49ff07;
+            color: red;
+        }
+        .item-nav{
+            display: none;
+        }
+        .nav-link:hover{
+            display: grid;
+            background-color: #49ff07;
+            color: red;
+        }
