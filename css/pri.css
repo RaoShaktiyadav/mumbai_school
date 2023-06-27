@@ -28,7 +28,7 @@
 }
 /* pri intro */
 .pritro{
-    border: 1px solid rgb(0, 0, 0);
+    
     padding: 2% 5%;
      position: relative;
 }
@@ -49,8 +49,51 @@
     color: #24ff07;
 }
 
+/* speacel featuer */
 
+.spefet{
+    margin-bottom:7% ;
+}
+.head2{
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 900;
+    padding: 4%;
+}
+.fird1{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    padding:2% 9% ;
+}
+.fird2{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    padding:2% 9% ;
+}
+.subd1{
 
+width: 32%;
+
+}
+.subd2{
+    
+    width: 32%;
+    
+    }
+.butspe{
+    width: 100%;
+    font-weight: 900;
+    height: 42px;
+background-color: red;
+    margin-top: 1%;
+    color: rgb(254, 254, 254);
+
+}
 
 /* footer */
 .container-fluid{
