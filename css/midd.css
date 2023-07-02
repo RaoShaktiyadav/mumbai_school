@@ -92,4 +92,40 @@
             background-color: #49ff07;
             color: red;
         }
-
+        /* midd intro */
+        .pritro{
+    
+            padding: 2% 5%;
+             position: relative;
+        }
+        .prii{
+           
+            width: 40%;
+           position: absolute;
+            right: 5%;
+            top: 30%;
+        }
+        .prip{
+            margin-top: 5%;
+            width: 50%;
+            font-weight: 600;
+        }
+        .head1{
+            text-align: center;
+            color: #24ff07;
+        }
+        .spefet{
+            margin-bottom:7% ;
+        }
+        .head2{
+            font-family:'Times New Roman', Times, serif ;
+            text-align: center;
+            font-size:xx-large;
+            font-weight: 900;
+            padding: 4%;
+        }
+        .head3{
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            font-weight: 900;
+            text-align: center;
+        }
