@@ -368,190 +368,34 @@ background:linear-gradient(#24ff07);
 
 
 
-/* media quarry for school dis */
+/* media quarry for mobo dis */
 
-@media only screen and (min-width:100px) and (max-width:575px) {
-    .actde{
-        width: 100%;
-        background-color: aliceblue;
-        border: 1px solid black;
-        background-color: rgb(181, 209, 200);
-        height: auto;
-        display: grid;
-        padding: 5% 10%;
-        
-        
-        
-        
-    }
-    .act1{
+@media only screen  and (max-width:400px) {
+.actde{
     
-        width: 300%;
-        height: 300px;
-        background-image: url("../mumimg/acadmic.jpg");
-        
-        
-        text-align: center;
-    }
-    .act2{
-        
-        width: 300%;
-        height: 300px;
-        background-image: url("../mumimg/sport.jpg");
-        
-        background-repeat: no-repeat;
-        text-align: center;
-    }
-    .act3{
-        
-        text-align: center;
-        width: 300%;
-        height: 300px;
-        background-image: url("../mumimg/activity.jpg");
-        
-        background-repeat: no-repeat;
-       
-    
-    
-    }
-
-    /* about school */
-
-    .sdis{
-        border: 1px solid black;
-        width: 100%;
-        height: auto;
-        background-image: url(https://thumbs.dreamstime.com/z/colourful-children-schoolbag-outdoors-field-backpack-school-accessories-154711801.jpg);
-        background-repeat: repeat;
-    }
-    .abmum{
-        margin: 35px 200px;
-        color: rgb(70, 235, 111);
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .abmumt{
-        margin: 1% 10% 7% 10% ;
-        color: rgb(0, 0, 0);
-     
-    }
-    .abmumo{
-       
-        color: rgb(128, 235, 70);
-        text-align: center;
-        font-family:  Georgia, Times, 'Times New Roman', serif;
-        
-    }
-
-/* acadmic */
-
-#services{
-    border: 1px solid rgb(0, 0, 0);       
-    width: 100%;
-    
-  
-
-    
-    
-}
-
-.h1{
-    
-   text-align: center;
-   
-   margin-top:10%;
-}
-h1{
-    text-align: center;
-    
-}
-.p1{
-    
-   
-    width: 70%;
-    margin: 10%;
-    
-   
-}
-.redm{
-    margin-left:38%;
-    background-color: beige;
-    color: red;
-    width: 30%;
-}
-
-.aci{
-   
-    width: 100%;
-    
-    height: 30px;
-    margin-top: 40px;
-   
-}
-.aci2{
-    
-   
-    
-    width: 100%;
-    
-
-    
-   
-}
-
-.a{
-    margin-top: 480px;
-    width:100%;
-    
-   
-
-}
-.b{
-    
-    width: 100%;
-    
-    
-}
-.c{
-    
-    width: 100%;
-    
-}
-.butcls{
-    width: 100%;
-    height:50px;
-    background-color: aqua;
-    font-size: larger;
-    font-weight: 900;
-}
-
-
-/* stud reiw */
-.stud{
-    margin-top: 100px;
-    margin-bottom: 100px;
     width: 100%;
     height: auto;
-background-image: url("../mumimg/Screenshot 2023-06-06 202818.png");
-display: grid;
-
+    display: inline-block;
+}
+.act1{
+    width: 97%;
+}
+.act2{
+    width: 97%;
+}
+.act3{
+    width: 97%;
 }
 
-.stud1{
+
+/* school discription */
+
+.sdis{
     width: 100%;
-    color: rgb(0, 0, 0);
-    padding: 10% 10%;
-   
+    margin-top: 1%;
 }
-.stud2{
-    width: 100%;
-   
-    text-align: center;
-    font-weight: 900;
-    padding: 11% 5% ;
+ {
+    text-align: left;
 }
 
-
-   
 }
-
